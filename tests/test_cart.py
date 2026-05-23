@@ -25,7 +25,7 @@ class TestCart(BseTest):
 
         self.add_game_to_cart(random_game)
         CartPage.move_to_cart()
-        CartPage.remove_game_from_cart()
+        CartPage.remove_game_from_cart(random_game)
         CartPage.check_empty_cart()
 
 
