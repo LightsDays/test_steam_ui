@@ -6,7 +6,7 @@ class LoginPage:
     @staticmethod
     @allure.step('Кликаем на кнопку "login".')
     def click_on_login() -> None:
-        browser.all('.global_action_link').element_by(have.text('login')).click()
+        browser.all('.global_action_link').element_by(have.text('sign in')).click()
 
     @staticmethod
     @allure.step('Проверяем, что отображается страница авторизации')
