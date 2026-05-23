@@ -6,12 +6,12 @@ class SearchPage:
     @staticmethod
     @allure.step('Кликаем на поле поиска')
     def click_on_search() -> None:
-            browser.element('#store_nav_search_term').click()
+            browser.element('._2tlUAG6WNyYFlk9caIiLj5').click()
 
     @staticmethod
     def find_game_in_search(game_name: str) -> None:
         with allure.step(f'Вводим в поле поиска текст "{game_name}"'):
-            browser.element('#store_nav_search_term').type(game_name).press_enter()
+            browser.element('._2tlUAG6WNyYFlk9caIiLj5').type(game_name).press_enter()
 
     @staticmethod
     @allure.step('Кликаем на первый результат поиска')
