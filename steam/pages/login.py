@@ -11,5 +11,5 @@ class LoginPage:
     @staticmethod
     @allure.step('Проверяем, что отображается страница авторизации')
     def this_is_login_page() -> None:
-        browser.element('DjSvCZoKKfoNSmarsEcTS').should(have.exact_text('Sign in'))
+        browser.element('.DjSvCZoKKfoNSmarsEcTS').should(have.exact_text('Sign in'))
 
