@@ -29,22 +29,9 @@ class BseTest:
         "PUBG: BATTLEGROUNDS",
         "Forza Horizon 6",
         "Rust",
-        "Bongo Cat",
         "Apex Legends",
         "Subnautica 2",
         "Slay the Spire 2",
-        "Marvel Rivals",
         "Geometry Dash",
         "ARC Raiders",
-    ]
-
-    LANGUAGES_LIST: list[str] = [
-        "koreana",
-        "thai",
-        "bulgarian",
-        "czech",
-        "danish",
-        "german",
-        "russian",
-        "english",
     ]

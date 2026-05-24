@@ -31,4 +31,4 @@ class MainPage:
     @staticmethod
     def check_lang_on_page(language: str) -> None:
         with allure.step(f'Проверяем, что на странице установлен {language} язык'):
-            browser.element('#language_pulldown').should(have.exact_text('langue'))
+            browser.element('#language_pulldown').should(have.exact_text('Sprache'))
