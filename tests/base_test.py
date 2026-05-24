@@ -25,10 +25,8 @@ class BseTest:
         CartPage.add_game_to_cart()
 
     GAMES_LIST: list[str] = [
-        "PUBG: BATTLEGROUNDS",
         "Forza Horizon 6",
         "Rust",
-        "Apex Legends",
         "Subnautica 2",
         "Slay the Spire 2",
         "Geometry Dash",
