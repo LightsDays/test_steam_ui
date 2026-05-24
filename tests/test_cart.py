@@ -36,7 +36,7 @@ class TestCart(BseTest):
         for _ in range(games_cnt):
             self.add_game_to_cart(self.fake.random_element(elements=self.GAMES_LIST))
             CartPage.continue_buying()
-
+        self.add_game_to_cart(self.fake.random_element(elements=self.GAMES_LIST))
         CartPage.move_to_cart()
         CartPage.clear_cart()
         CartPage.check_empty_cart()
