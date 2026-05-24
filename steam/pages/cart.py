@@ -33,7 +33,7 @@ class CartPage:
     @staticmethod
     @allure.step('Проверяем наличие игры {game_name} в корзине.')
     def check_game_in_cart(game_name) -> None:
-        browser.element('.pVXX8Pzc4JbT40TP4RwRG').should(have.exact_text(game_name))
+        browser.element('._3ypRUtQoOfOrCsyHlzfGm4').should(have.exact_text(game_name))
 
     @staticmethod
     @allure.step('Проверяем, что корзина пустая.')
