@@ -3,4 +3,4 @@ selene>=2.0.0rc7
 allure-pytest==2.16.0
 python-dotenv==1.0.0
 Faker==40.19.1
-requests
+requests==2.34.2

@@ -1,9 +1,5 @@
 import allure
-from allure_commons.types import Severity
 
-from enums.settings import Settings
-from steam.pages.main import MainPage
-from steam.pages.search import SearchPage
 from steam.pages.cart import CartPage
 from tests.base_test import BseTest
 
